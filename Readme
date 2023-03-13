@@ -1,0 +1,15 @@
+Superuser  credentials : Username:admin , password: 123
+I have not create the frontend due to lack of time , but all major api has been made and tested in postman
+Postman link : https://gold-station-436287.postman.co/workspace/My-Workspace~84e3c1b4-98de-46d2-8f82-a44248eceaca/collection/19371747-3c3d1015-b128-4562-b54e-43a6a848352d?action=share&creator=19371747
+API that i have created are : 
+. register (to register of user)
+. login (login of user , simple jwt is used for authentication)
+. create_document (making of the notes)
+. delete_document (deleting notes)
+. doc_by_title (searching notes according to it's title)
+. show_all_docs (show all the notes available)
+. update_document (update the notes)
+
+In login api during successful login a token will generate , keep in mind to paste that token in  Authorization-> Type-> Bearer Token to make other api run , as all other api are jwt authenticated(exept register)
+I have tried to cover all major api that can be used in this project , still some api might be left behind 
+
